@@ -14,18 +14,9 @@
     <nav class="navbar">
         <div class="navbar-container container">
             <h1 class="logo">Delicious Bites</h1>
-            <input type="checkbox" name="" id="">
-            <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-            </div>
             <ul class="menu-items">
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#food">Category</a></li>
-                <li><a href="#food-menu">Menu</a></li>
-                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="food_menu.html">Menu</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>       
         </div>
@@ -34,7 +25,6 @@
         <div class="showcase-container">
             <h1 class="main-title" id="home">Welcome to Delicious Bites</h1>
             <p>where every bite is a delight!</p>
-            <a href="#food-menu" class="btn btn-primary">Explore Menu</a>
         </div>
     </section>
     <section id="about">
@@ -52,40 +42,53 @@
             </div>
         </div>
     </section>
-    <section id="food">
-        <h2>Types of food</h2>
-        <div class="food-container container">
-            <div class="food-type Healthy_Diet">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/4NKW2rm0/pexels-jane-doan-1105166.jpg" alt="error" />
-                    <div class="img-content">
-                        <h4>Healthy Diet </h4>
-                        <a href="https://en.wikipedia.org/wiki/Healthy_diet" class="btn btn-primary" target="blank">learn
-                            more</a>
-                    </div>
-                </div>
+    
+    <section id="feedback">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
             </div>
-            <div class="food-type indian_cuisine">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/7h35tPr4/pexels-chan-walrus-941869.jpg" alt="error" />
-                    <div class="img-content">
-                        <h4>Indian Cuisine</h4>
-                        <a href="https://en.wikipedia.org/wiki/Indian_cuisine" class="btn btn-primary" target="blank">learn
-                            more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="food-type Desserts">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/qv2RB56D/pexels-abhinav-goswami-291528.jpg" alt="error" />
-                    <div class="img-content">
-                        <h4>Desserts</h4>
-                        <a href="https://en.wikipedia.org/wiki/Dessert" class="btn btn-primary" target="blank">learn
-                            more</a>
-                    </div>
-                </div>
+
+            <div class="form-container">
+                <h2>Feedback</h2>
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="E-Mail" />
+                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                <button type="button">Submit</button>
             </div>
         </div>
     </section>
+    <section id="contact">
+        <div class="about-wrapper container">
+            <div class="contact-details">
+                <h2 class="small">Contact Details:</h2>
+                <p style="font-size: 15px;">
+                    <b>Address:</b> Hotel Delicious Bites, Avadh Complex,<br> S.G.highway, Science City, Ahmedabad-382 418 <br>
+                    <a><b>Phone Number: </b></a>
+                    <a href="+91 63555 33441">+91 63555 33441</a><br>
+                    <a> <b>Email:</b></a>
+                    <a href="info@DeliciousBites.com">info@DeliciousBites.com</a><br>
+                    <a><b>Website:</b></a>
+                    <a href="www.DeliciousBites.com">www.DeliciousBites.com</a>
+                </p>
+                <h2 class="small">Operating Hours:</h2>
+                <p style="font-size: 15px;">
+                    Monday-Sunday: 11:00 AM - 10:00 PM
+                </p>
+                <h2>Social Media:</h2>
+                <p>
+                    <a><b>Facebook: </b></a>
+                    <a href="www.facebook.com/DeliciousBites">www.facebook.com/DeliciousBites</a><br>
+                    <a><b>Instagram: </b></a>
+                    <a href="www.instagram.com/DeliciousBites">www.instagram.com/DeliciousBites</a><br>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <h2>Restraunt &copy; all rights reserved</h2>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
