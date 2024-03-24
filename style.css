@@ -70,6 +70,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 .showcase-container {
   display: flex;
   flex-direction: column;
